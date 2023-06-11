@@ -1,9 +1,15 @@
+import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 
 function Page() {
   return (
     <main className="">
-      <div>Hello Nextjs</div>
+      <div>
+        <HeroSection
+          title={"WATCH MOVIES TOGEATHER WITH FAMILY & FRIENDS"}
+          imageUrl={"/home.svg"}
+        />
+      </div>
     </main>
   );
 }
