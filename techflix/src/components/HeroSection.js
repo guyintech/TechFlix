@@ -4,7 +4,7 @@ import styles from "@/app/style/common.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-const HeroSection = ({title, imageUrl}) => {
+const HeroSection = ({ title, imageUrl }) => {
   return (
     <main className={hero.main_section}>
       <div className={styles.container}>
@@ -16,7 +16,7 @@ const HeroSection = ({title, imageUrl}) => {
               got you covered. Browse from thousands of lastest and greatest
               movies.
             </p>
-            <button>
+            <button className={styles.explore_movies}>
               <Link href="/movies">Explore Movies</Link>
             </button>
           </div>
