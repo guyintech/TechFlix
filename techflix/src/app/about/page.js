@@ -1,5 +1,11 @@
+import HeroSection from "@/components/HeroSection";
+
 const About = () => {
-  return <>About Page</>;
+  return (
+    <>
+      <HeroSection title={"OUR STORY"} imageUrl={"/about.svg"} />
+    </>
+  );
 };
 
 export default About;
